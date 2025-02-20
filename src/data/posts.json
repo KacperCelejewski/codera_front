@@ -1,0 +1,41 @@
+
+{
+  "posts": [
+    {
+      "title": "Hello World",
+      "image": "/sample.jpg",
+      "excerpt": "This is a blog post about hello world.",
+      "slug": "hello-world",
+      "category": "world",
+      "date": "2022-02-12",
+      "content": "This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world."
+    },
+    {
+      "title": "Hello World 2",
+      "image": "/sample.jpg",
+      "excerpt": "This is a blog post about hello world.",
+      "slug": "hello-world-2",
+      "category": "world",
+      "date": "2022-02-12",
+      "content": "This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world."
+    },
+    {
+      "title": "Hello World 3",
+      "image": "/sample.jpg",
+      "excerpt": "This is a blog post about hello world.",
+      "slug": "hello-world-3",
+      "category": "world",
+      "date": "2022-02-12",
+      "content": "This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world."
+    },
+    {
+      "title": "Hello World 4",
+      "image": "/sample.jpg",
+      "excerpt": "This is a blog post about hello world.",
+      "slug": "hello-world-4",
+      "category": "world",
+      "date": "2022-02-12",
+      "content": "This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world. This is a blog post about hello world."
+    }
+  ]
+}
