@@ -1,7 +1,6 @@
 export default interface Comment {
     id: number;
-    name: string;
-    email: string;
+    author: string;
     content: string;
     post: number;
     date: string;
