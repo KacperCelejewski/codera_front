@@ -12,9 +12,8 @@ const comments: Comment[] = [
     postId: 1,
     date: "2021-10-01",
     name: "John Doe",
-    email: "sample@gmail.com",
     content: "This is a comment",
-    author: "Author Name",
+    author: 1,
   },
 ];
 
