@@ -1,13 +1,22 @@
 
+import Home from './views/home';
+import Blog from './views/Blog/PostDetails';
+import BlogPost from './views/Blog/BlogPostList';
+import Courses from './views/Courses/Courses';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import NewsletterCard from './components/newsletter_section/NewsletterCard'
-import Navbar from './components/navbar/navbar'
 function App() {
   return (
-<div className="min-h-screen bg-darkBlue bg-opacity-80 text-white">
-    <Navbar />
-    <NewsletterCard />
-</div>
+    <Router>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<BlogPost />} />
+        <Route path="/blog/:slug" element={<Blog />} />
+        <Route path='/wiedza'element={<Courses/>}/>
+      </Routes>
+    </Router>
+
 
 
   )
