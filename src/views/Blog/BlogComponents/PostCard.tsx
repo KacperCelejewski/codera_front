@@ -9,7 +9,7 @@ export default function PostCard({ post }: { post: Post }) {
       <div
         className="h-56 bg-cover bg-center p-4 flex items-end"
         style={{ backgroundImage: `url(${post.image})` }}
-      >
+      >``
         <h1 className="text-2xl font-bold text-white bg-black/60 px-3 py-1 rounded-md">
           {post.title}
         </h1>
