@@ -1,7 +1,9 @@
-export default interface Comment {
-    id: number;
-    author: string;
-    content: string;
-    post: number;
-    date: string;
-}
+/** @format */
+
+export type Comment = {
+  id: number;
+  author: string;
+  content: string;
+  post: number;
+  date: string;
+};
