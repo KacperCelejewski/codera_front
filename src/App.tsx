@@ -1,24 +1,10 @@
-
-import Home from './views/home';
-import Blog from './views/Blog/PostDetails';
-import BlogPost from './views/Blog/BlogPostList';
-import Courses from './views/Courses/Courses';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AuthProvider from "react-auth-kit";
+import RoutesElement from "./Routes";
+import createStore from "react-auth-kit/createStore";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  return (
-    <Router>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<BlogPost />} />
-        <Route path="/blog/:slug" element={<Blog />} />
-        <Route path='/wiedza'element={<Courses/>}/>
-      </Routes>
-    </Router>
-
-
-
-  )
+  return <RoutesElement />;
 }
-export default App
+
+export default App;

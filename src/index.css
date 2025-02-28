@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    background: radial-gradient(
+      circle,
+      #0e0b0b 14%,
+      #0d0c10 31%,
+      #08193d 53%,
+      #000000 100%
+    );
+  }
+}
